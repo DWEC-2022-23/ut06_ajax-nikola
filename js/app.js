@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
     }
   }
-  xhr.open("GET", "novios.json",true);
+  xhr.open("GET", "http://localhost:8000/invitados",true);
   xhr.send();
 
 
